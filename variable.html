@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    :root{
+        --primary-color:gray;
+        --secondary-color:rgb(34, 33, 33);
+        --m5: 5px;
+        --m10: 10px;
+        --p5: 5px;
+        --p10: 10px;
+    }
+    body{
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        flex-direction: column;
+        gap: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .card{
+        border: 5px solid white;
+        max-width: 800px;
+        margin: var(--m10) 0px;
+    }
+    .card-1{
+        border: 5px solid white;
+        max-width: 800px;
+        margin: var(--m10) 0px;
+    }
+    .heading-1{
+        text-align: center;
+        background-color: var(--primary-color);
+        margin-bottom:var(--m10);
+    }
+    .heading-2{
+        text-align: center;
+        background-color: var(--primary-color);
+        margin-bottom:var(--m10);
+    }
+    .para-1{
+        background-color: var(--secondary-color);
+        padding: var(--p10) var(--p5);
+    }
+    .para-2{
+        background-color: var(--secondary-color);
+        padding: var(--p10) var(--p5);
+    }
+</style>
+<body>
+    <div class="card">
+        <div class="heading-1">
+            <h1>Rafay Gigani</h1>
+        </div>
+        <div class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quas maiores itaque! Harum nihil incidunt natus eius veritatis totam saepe veniam minus, eos autem labore, cum similique, qui molestias dicta!</div>
+    </div>
+    <div class="card-1">
+        <div class="heading-2">
+            <h1>Rafay Gigani</h1>
+        </div>
+        <div class="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quas maiores itaque! Harum nihil incidunt natus eius veritatis totam saepe veniam minus, eos autem labore, cum similique, qui molestias dicta!</div>
+    </div>
+</body>
+</html>
